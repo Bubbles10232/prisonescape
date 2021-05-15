@@ -1,7 +1,7 @@
 const Discord = require("discord.js"),
     client = new Discord.Client,
     prefix = "!",
-    token = "Token Here"; //discord token
+    token = "process.env.TOKEN"; //discord token
 
 var emojiname = ["", ""],
     rolename = ["", ""];
